@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+
+pandas
+
+langchain
+langchain-core
+langchain-mistralai
+
+python-dotenv
+
+pydantic
+pydantic-settings
+
+python-multipart
+numexpr

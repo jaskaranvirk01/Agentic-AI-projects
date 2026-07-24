@@ -1,0 +1,17 @@
+# Python bytecode cache directories
+**/__pycache__/
+
+# Virtual environments
+**/env/
+**/venv/
+**/.venv/
+**/ENV/
+
+# Environment variable files
+.env
+**/.env
+.env.*
+**/.env.*
+
+# Python bytecode files
+*.py[cod]

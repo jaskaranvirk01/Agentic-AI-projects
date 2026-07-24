@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-mistralai
+langchain-community
+tavily-python
+python-dotenv
+pydantic
+rich
+numexpr
