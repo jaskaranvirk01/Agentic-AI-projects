@@ -65,7 +65,7 @@ def research_agent_loop(user_query: str):
     )
 
     response = writer_agent_loop(research_output)
-    print(response.markdown)
+    print(response.markdowncd)
 
 
 def writer_agent_loop(research_output: ResearchOutput):
