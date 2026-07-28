@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-mistralai
+langchain-community
+python-dotenv
+pydantic
+serpapi
+requests
+google-search-results
