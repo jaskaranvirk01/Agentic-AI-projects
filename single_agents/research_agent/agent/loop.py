@@ -2,7 +2,7 @@ from agent.agent import agent
 from langchain_core.messages import ToolMessage
 from tools.web_search import web_search
 from tools.calculator import calculator
-# from rich import print
+from rich import print
 tools = {
     "web_search": web_search,
     "calculator": calculator

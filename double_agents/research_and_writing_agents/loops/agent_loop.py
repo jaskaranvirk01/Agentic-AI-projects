@@ -21,10 +21,14 @@ def execute_tool_loop(agent, tool_registry, result):
         for tool_call in result.tool_calls:
 
             tool_name = tool_call["name"]
-
+            print()
+            print()
             print(f"Tool Name : {tool_name}")
+            print()
+            print()
             print(f"Arguments : {tool_call['args']}")
-
+            print()
+            print()
             confirm = input("Approve to use this tool (y/n) : ")
 
             if confirm.lower() != "y":
@@ -50,6 +54,11 @@ def execute_tool_loop(agent, tool_registry, result):
 
 
 def research_agent_loop(user_query: str):
+    print()
+    print()
+    print('Research agent starts its work')
+    print()
+    print()
 
     result = research_agent.invoke(user_query)
 
@@ -63,9 +72,20 @@ def research_agent_loop(user_query: str):
         user_query=user_query,
         research=extract_text(result.content)
     )
+    print()
+    print()
+    print('Research Done')
+    print()
+    print()
+    print('Wrtier Agent starts its work')
 
     response = writer_agent_loop(research_output)
-    print(response.markdowncd)
+    print(response.markdown)
+    print()
+    print()
+    print('Writer agent done its work')
+    print()
+    print()
 
 
 def writer_agent_loop(research_output: ResearchOutput):
