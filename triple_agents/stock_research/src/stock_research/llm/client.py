@@ -7,6 +7,3 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.4,
     api_key=settings.google_api_key
 )
-
-
-print(llm.invoke("Hii"))

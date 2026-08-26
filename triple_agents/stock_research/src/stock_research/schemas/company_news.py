@@ -7,7 +7,7 @@ class NewsArticle(BaseModel):
     summary: str
     source: str
     url: str
-    published_at: datetime
+    time_published: datetime
 
 
 class CompanyNews(BaseModel):
