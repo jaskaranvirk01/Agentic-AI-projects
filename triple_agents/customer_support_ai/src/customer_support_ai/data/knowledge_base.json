@@ -1,0 +1,98 @@
+[
+  {
+    "id": "KB-001",
+    "title": "How to Reset a Forgotten Password",
+    "category": "account",
+    "problem": "The customer has forgotten their password and cannot log into their account.",
+    "solution": "Go to the login page and select 'Forgot Password'. Enter the email address registered to the account. A password reset link will be sent to that email address. Open the link and create a new password.",
+    "keywords": ["forgot password", "reset password", "password", "login", "sign in", "account access"]
+  },
+  {
+    "id": "KB-002",
+    "title": "How to Change the Registered Email",
+    "category": "account",
+    "problem": "The customer wants to change the email address associated with their account.",
+    "solution": "Open account settings and navigate to the email or profile section. Enter the new email address and confirm the change using the verification email sent to the new address.",
+    "keywords": ["change email", "update email", "email address", "account settings", "profile"]
+  },
+  {
+    "id": "KB-003",
+    "title": "Account Locked After Multiple Failed Attempts",
+    "category": "account",
+    "problem": "The customer's account has been temporarily locked after several unsuccessful login attempts.",
+    "solution": "Wait for the temporary lockout period to expire and then try again using the correct credentials. If the customer does not remember the password, they should use the password reset process. If the account remains locked, contact customer support.",
+    "keywords": ["account locked", "locked account", "login attempts", "failed login", "cannot login"]
+  },
+  {
+    "id": "KB-004",
+    "title": "Duplicate Subscription Charge",
+    "category": "billing",
+    "problem": "The customer believes they were charged twice for the same subscription.",
+    "solution": "Check the billing history to confirm whether both charges belong to the same subscription. Sometimes a temporary authorization and the final charge may appear separately and the authorization will disappear automatically. If two completed charges remain, contact billing support with the transaction details.",
+    "keywords": ["charged twice", "duplicate charge", "double charge", "billing", "subscription", "payment"]
+  },
+  {
+    "id": "KB-005",
+    "title": "Payment Failed",
+    "category": "billing",
+    "problem": "The customer's payment was declined or failed during a purchase or subscription renewal.",
+    "solution": "Verify that the payment method has sufficient funds and that the card details, expiration date, and billing information are correct. The customer can also try another payment method. If the payment continues to fail, they should contact their bank or payment provider.",
+    "keywords": ["payment failed", "payment declined", "card declined", "failed payment", "billing", "checkout"]
+  },
+  {
+    "id": "KB-006",
+    "title": "How to Update the Payment Method",
+    "category": "billing",
+    "problem": "The customer wants to replace or update the payment method used for their subscription.",
+    "solution": "Open account billing settings and select the payment method section. Add the new payment method and set it as the default payment method. Remove the old payment method if it is no longer needed.",
+    "keywords": ["change payment method", "update card", "new card", "payment method", "billing", "credit card"]
+  },
+  {
+    "id": "KB-007",
+    "title": "Refund Eligibility",
+    "category": "refund",
+    "problem": "The customer wants to know whether their purchase or subscription is eligible for a refund.",
+    "solution": "Refund eligibility depends on the product, purchase date, and applicable refund policy. The customer should review the refund policy for their purchase and contact support with the order or transaction details if they believe they qualify.",
+    "keywords": ["refund", "refund eligibility", "money back", "return payment", "cancel purchase"]
+  },
+  {
+    "id": "KB-008",
+    "title": "Refund Processing Time",
+    "category": "refund",
+    "problem": "The customer has requested a refund and wants to know when the money will appear in their account.",
+    "solution": "Once a refund has been approved and processed, the time required for the funds to appear depends on the payment provider or bank. Customers should allow several business days for the refund to appear. If the refund does not arrive after the expected processing period, they should contact support.",
+    "keywords": ["refund pending", "refund time", "refund status", "money not received", "refund processing"]
+  },
+  {
+    "id": "KB-009",
+    "title": "Application Not Loading",
+    "category": "technical",
+    "problem": "The customer cannot load the application or the application remains stuck while loading.",
+    "solution": "Refresh the page and check the internet connection. If the issue continues, clear the browser cache and cookies and try again. The customer can also try another browser or device. If the application still does not load, contact technical support.",
+    "keywords": ["app not loading", "application not loading", "page stuck", "loading", "website problem", "technical issue"]
+  },
+  {
+    "id": "KB-010",
+    "title": "Error During Checkout",
+    "category": "technical",
+    "problem": "The customer receives an error message while attempting to complete checkout.",
+    "solution": "Refresh the checkout page and verify that all required information is correct. Try again using a supported browser and ensure the payment method is valid. If the error continues, provide the exact error message to technical support so the issue can be investigated.",
+    "keywords": ["checkout error", "checkout failed", "purchase error", "error message", "technical issue", "cannot checkout"]
+  },
+  {
+    "id": "KB-011",
+    "title": "How to Track an Order",
+    "category": "shipping",
+    "problem": "The customer wants to check the current status or location of their order.",
+    "solution": "Open the orders section of the account and select the relevant order. If tracking information is available, the tracking number and current shipment status will be displayed. The tracking number can also be used on the carrier's website.",
+    "keywords": ["track order", "order tracking", "shipment status", "tracking number", "delivery"]
+  },
+  {
+    "id": "KB-012",
+    "title": "Delayed Order",
+    "category": "shipping",
+    "problem": "The customer's order has not arrived within the expected delivery timeframe.",
+    "solution": "Check the order status and tracking information first, as delivery estimates can change because of carrier delays or other shipping issues. If the tracking information has not updated for several days or the estimated delivery date has passed significantly, contact customer support with the order number.",
+    "keywords": ["late order", "delayed order", "delivery delayed", "order not arrived", "shipping delay", "missing order"]
+  }
+]
