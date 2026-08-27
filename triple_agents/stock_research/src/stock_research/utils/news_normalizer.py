@@ -5,6 +5,7 @@ from datetime import datetime
 def normalize_company_news(ticker: str, data: dict) -> CompanyNews:
     '''Use this function to normalize the raw news data and convert it into a proper pydantic response object'''
     articles = []
+
     for article in data['feed']:
         for t in article['ticker_sentiment']:
             if t['ticker'] != ticker:

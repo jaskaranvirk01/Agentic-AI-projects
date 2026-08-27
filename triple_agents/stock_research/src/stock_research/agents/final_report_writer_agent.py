@@ -4,6 +4,7 @@ from stock_research.schemas.final_report import ReportGenerationInput
 from stock_research.schemas.final_report import FinalReport
 from stock_research.llm.client import llm
 from langchain_core.messages import SystemMessage, HumanMessage
+from stock_research.prompts.final_report_writer import SYSTEM_PROMPT
 
 
 class FinalReportWriterAgent:
@@ -11,7 +12,7 @@ class FinalReportWriterAgent:
         self.llm = llm
         self.llm_with_structured_output = self.llm.with_structured_output(
             FinalReport)
-        self.writing_system_prompt = SystemMessage(content='')
+        self.writing_system_prompt = SystemMessage(content=SYSTEM_PROMPT)
 
     def run(self, research_data: ResearchAgentOutput, financial_analysis: FinancialAnalysisOutput) -> FinalReport:
         data = ReportGenerationInput(
@@ -20,3 +21,6 @@ class FinalReportWriterAgent:
             content=data.model_dump_json(indent=2))]
 
         return self.llm_with_structured_output.invoke(messages)
+
+
+final_report_writer_agent = FinalReportWriterAgent()
